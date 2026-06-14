@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" alt="RailMind AI Banner" width="100%"/>
+<img src="banner.png" alt="RailMind AI Banner" width="100%"/>
 
 # 🚄 RailMind AI
 ### Autonomous Intelligent Railway Optimization Network for Indian Railways
