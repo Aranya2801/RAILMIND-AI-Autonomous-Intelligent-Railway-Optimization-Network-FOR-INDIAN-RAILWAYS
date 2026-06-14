@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Models (large files — use Git LFS)
+models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Data (sensitive / large)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.h5
+!data/samples/
+
+# Environment
+.env
+.env.local
+secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/

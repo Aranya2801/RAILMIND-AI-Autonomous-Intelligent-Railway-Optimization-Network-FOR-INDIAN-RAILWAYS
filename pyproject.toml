@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "railmind-ai"
+version = "1.0.0"
+description = "Autonomous Intelligent Railway Optimization Network for Indian Railways"
+authors = [{ name = "RailMind AI Research Team" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["indian-railways", "deep-learning", "reinforcement-learning",
+            "digital-twin", "smart-transportation", "delay-prediction"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/railmind-ai/railmind"
+Documentation = "https://railmind-ai.github.io/docs"
+Repository = "https://github.com/railmind-ai/railmind"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
